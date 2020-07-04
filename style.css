@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Sansation Regular";
+    src: url("Fonts/sansation-regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.header-container {
+    height: 61px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    font-family: 'Sansation Regular';
+    font-size: 20px;
+    color: #ffffff;
+}
+
+nav ul li a:visited {
+    color: #ffffff
+}
+
+nav ul li a:hover {
+    color: #0d7a87;
+}
+
+
+.header-container a {
+    padding: 25px 30px;
+}
+
+.logo p {
+    padding: 25px 35px;
+    font-family: 'Sansation Regular';
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.logo p span {
+    color: #da2346;
+}
+
+.top-container {
+    height: 552px;
+    background: url(img/banner\ bg.jpg) center no-repeat;
+    font-family: 'Sansation Regular';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.top-container h1 {
+    font-size: 48pt;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.top-container p {
+    font-size: 10,39pt;
+    color: #ffffff;
+    margin-bottom: 41px;
+}
+
+.btn {
+    width: 106px;
+    height: 33px;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    padding: 10px 31px !important;
+    border: 3px solid #ffffff;
+    font-family: 'Sansation Regular';
+    font-size: 14pt;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.top-tf-container {
+    width: 1000px;
+    height: 425px;
+}
+
+.left-container {
+    width: 500px;
+    height: 425px;
+    display: inline-block;
+    float: left;
+}
+
+.right-container {
+    width: 500px;
+    height: 425px;
+    display: inline-block;
+    float: left;
+}
+
+.leftcon-image {
+    max-width: 100%;
+    min-height: 100%;
+}
+
+.right-container h1 {
+    text-transform: uppercase;
+    font-family: 'Sansation Regular';
+    font-size: 24px;
+    margin: 45px 0 0 55px;
+}
+
+.right-container p {
+    font-family: 'Sansation Regular';
+    font-size: 11pt;
+    margin: 45px 55px;
+}
+
+.right-container hr {
+    margin: 0 0 0 45px;
+}
+
+.top-tf-btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 28px;
+    margin-left: 45px;
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+    background-color: #05a0af;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 9.28pt;
+    text-decoration: none;
+}
+
+.divider-container {
+    width: 100%;
+    height: 140px;
+    background-color: #373737;
+}
+
+.divider-container p {
+    font-family: 'Sansation Regular';
+    font-size: 40pt;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 45px;
+}
